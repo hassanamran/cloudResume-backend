@@ -38,6 +38,6 @@ Resources:
 
 Outputs:
   ApiUrl:
-    Description: "Paste this URL into your JavaScript fetch call"
+    Description: "Paste this URL into your JavaScript fetch call to call the API"
     Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/count"
     
